@@ -1,0 +1,4 @@
+collections:
+  redirects:
+    output: true
+    permalink: /:path/
