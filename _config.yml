@@ -1,3 +1,5 @@
+url: "https://i.sitcon.org"
+
 collections:
   redirects:
     output: true
