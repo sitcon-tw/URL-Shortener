@@ -2,3 +2,9 @@ collections:
   redirects:
     output: true
     permalink: /:path/
+
+include:
+  - images
+
+keep_files:
+  - images

@@ -15,7 +15,13 @@
   <meta name="author" content="SITCON">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:image" content="{{ page.image }}">
+  {% if page.image %}
+    {% if page.image contains "://" %}
+      <meta property="og:image" content="{{ page.image }}">
+    {% else %}
+      <meta property="og:image" content="{{ site.url }}{{ page.image | relative_url }}">
+    {% endif %}
+  {% endif %}
   <meta property="og:site_name" content="SITCON">
   <meta property="og:locale" content="zh_TW">
   <script>
