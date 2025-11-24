@@ -3,7 +3,5 @@ main = "worker.ts"
 compatibility_date = "2025-11-24"
 
 routes = [
-  { pattern = "sitcon.org/*", zone_name = "sitcon.org" },
-  { pattern = "i.sitcon.org/*", zone_name = "sitcon.org" },
   { pattern = "url.elvismao.com/*", zone_name = "url.elvismao.com" },
 ]
