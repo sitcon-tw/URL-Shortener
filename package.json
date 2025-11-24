@@ -1,0 +1,12 @@
+{
+  "name": "sitcon-shortlinks",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "packageManager": "pnpm@10.22.0",
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "wrangler": "^4.50.0"
+  }
+}
