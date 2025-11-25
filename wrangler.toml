@@ -1,7 +1,8 @@
 name = "sitcon-shortlinks"
 main = "worker.ts"
-compatibility_date = "2025-11-24"
+compatibility_date = "2025-11-25"
 
 routes = [
-  { pattern = "url.elvismao.com/*", zone_name = "url.elvismao.com" },
+  { pattern = "sitcon.org/*", zone_name = "sitcon.org" },
+  { pattern = "i.sitcon.org/*", zone_name = "sitcon.org" }
 ]
